@@ -55,6 +55,13 @@ namespace BattleshipLogic
 
             // loop over each player ship
             // if statement to check if a ship is "not sunk".
+            foreach (var ship in player.ShipLocations)
+            {
+                if (ship.Status != GridSpotStatus.Sunk)
+                {
+                    isActive = true;
+                }
+            }
 
             return isActive;
         }
@@ -65,6 +72,13 @@ namespace BattleshipLogic
 
             // loop over each shot
             // if statement to check if any of the shots != empty, increment shotCount.
+            foreach (var shot in player.ShotGrid)
+            {
+                if (shot.Status != GridSpotStatus.Empty)
+                {
+                    shotCount++;
+                }
+            }
 
             return shotCount;
         }
@@ -172,6 +186,7 @@ namespace BattleshipLogic
                 if (ship.SpotLetter == row.ToUpper() && ship.SpotNumber == column)
                 {
                     isAHit = true;
+                    ship.Status = GridSpotStatus.Sunk;
                 }
 
             }
