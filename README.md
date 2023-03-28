@@ -2,18 +2,18 @@
 This is a console-based 2-player game that is based on the popular board game Battleship from Mattel. The game involves a 25-spot grid ranging from A1 - E5, where each player will place 5 pegs on the board to represent their 5 ships. Players will take turns firing at their opponents’ ships, and the first person to sink all 5 ships wins.
 
 <h2>How to Play</h2>
-1.Two players open the console.
-2.Ask user 1 for where to place their ships.
-3.Ask user 2 for where to place their ships.
-4.Ask user 1 for a shot.
-5.Determine hit or miss.
-6.Determine if the games is over.
-7.Ask user 2 for a shot.
-8.Determine hit or miss.
-9.Determine if the game is over.
-10.Repeat until someone wins.
-11.Identify who the winner is.
-12.Exit the application.
+>1.Two players open the console.
+>2.Ask user 1 for where to place their ships.
+>3.Ask user 2 for where to place their ships.
+>4.Ask user 1 for a shot.
+>5.Determine hit or miss.
+>6.Determine if the games is over.
+>7.Ask user 2 for a shot.
+>8.Determine hit or miss.
+>9.Determine if the game is over.
+>10.Repeat until someone wins.
+>11.Identify who the winner is.
+>12.Exit the application.
 
 <h2>Additional Requirements</h2>
 The game is played on the same console.
